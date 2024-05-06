@@ -4,7 +4,7 @@ echo Enter a password
 read -s inp
 if [ $inp = $pass ];
 then
-	echo Password is correct
+	echo Access granted
 else
-	echo Password is incorrect
+	echo Access Denied
 fi
